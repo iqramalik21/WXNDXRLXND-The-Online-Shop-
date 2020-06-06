@@ -1,0 +1,120 @@
+@font-face {
+    font-family: Raleway;
+    src: url(Raleway/Raleway-Medium.ttf);
+  }
+a:hover{
+    color: yellow !important;
+}
+ .navbar{
+    background-image: linear-gradient(-90deg,#ee2dae, #5c025c) !important;
+}
+
+.navbar-nav > li{
+    margin-left:7px;
+    margin-right:7px;
+    
+  }
+
+.nav-link{
+    color: white !important;
+    font-weight: bolder;
+    font-size: 110%;
+    font-family: Raleway;
+}
+.fa-shopping-cart , .fa-user-circle, .fa-heart{
+    font-size: 24px !important;
+}
+
+.fa-truck, .fa-handshake-o,.fa-money,.fa-volume-control-phone{
+    font-size: 55px !important;
+    text-align: center !important;
+}
+.servicesSection{
+    text-align: center !important;
+    margin-top: 5px;
+    margin-Bottom: 5px;
+}
+h2{
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    margin-top: 20px;
+    color:  rgb(114, 1, 114) !important; 
+    margin-bottom: 20px; 
+}
+.serviceCard{
+    flex-wrap: wrap;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.cText{
+    color: #fff;
+    font-size: 25px !important;
+    text-align: center !important;
+
+
+}
+.card1{
+    background-color: rgb(247, 94, 94); ;
+}
+.card2{
+    background-color: rgb(67, 212, 67) !important;
+}
+.card3{
+    background-color: rgb(234, 247, 63) !important;
+}
+.card4{
+    background-color: rgb(86, 185, 243) !important;
+}
+.orig{
+    margin-top: 10px;
+    text-align: center !important;
+    display: flex !important;
+    width: 350px;
+    height: 100px;
+    margin-right: 2px;
+    margin-left: 5px;
+    border: 2px solid black;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cText3{
+    color: black;
+    font-size: 25px !important;
+    text-align: center !important;
+}
+@media screen and (max-width:760px){
+    .orig{
+        width:100%;
+    }
+} 
+.card{
+   margin: auto !important;
+    width: auto !important;
+    margin-bottom: 20px !important;
+}
+.footer{
+    width: 100%;
+    background-image: linear-gradient(-90deg,#ee2dae, #750275) !important;
+
+    color: #fff;
+    margin-bottom: 0px;
+    padding:10px;
+    text-align: right;
+}
+.footer{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sitemap{
+    color: #fff !important;
+    font-weight: bold;
+}
+
+
+

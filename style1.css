@@ -1,0 +1,116 @@
+
+#r1, #r2{
+    margin-top: 20px !important;
+}
+.pText{
+    color: #fff !important;
+}
+.bgR{
+    background-color: rgb(245, 148, 131);
+}
+h3{
+    margin-top: 400px;
+    margin-bottom: 400px;
+    text-align: center;
+    font-family: Raleway;
+}
+.accInfo{
+    border: 2px solid rgb(85, 84, 84);
+    border-radius: 5%;
+    width: 400px !important;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    height: 300px;
+}
+.fa-user-circle-o{
+    font-size: 100px !important;
+    margin-top:5px !important;
+    padding: 5px !important;
+}
+.accInfo>h5{
+    vertical-align: middle !important;
+}
+.icc{
+    background-color: rgb(206, 200, 200);
+    border-radius: 10%;
+}
+.signout{
+    margin-top: 20px !important;
+}
+
+.journey{
+    background-image: url("images/back.jpg");
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.journeyText{
+    border-radius: 10%;
+    width:1100px;
+    height:800px;
+    opacity: 0.9;
+    
+}
+.journeyText>h1{
+    padding: 25px;
+}
+.lorem{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+.achievements{
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+.awards{
+    margin-top: 50px !important;
+    margin-bottom: 10px !important;
+   width: 400px;
+   height: 50px;
+}
+.contact{
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.map{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.fa-map-marker,.fa-phone-square,.fa-clock-o{
+    font-size: 35px;
+    padding-right: 5px;
+    color: blue;
+}
+.opening{
+    margin-top: 20px;
+    line-height: 8px;
+}
+.pp{
+    vertical-align: bottom !important;
+}
+
+#logoCard{
+    width: 800px;
+    height: 250px;
+}
+#openingCard>img{
+    height:200px
+}
+.contForm{
+    margin-top: 30px;
+    
+}
+.formArea{
+    width: 900px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+h1,h4,h5,p{
+    font-family: Raleway !important;
+}
