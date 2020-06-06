@@ -45,11 +45,13 @@ h3{
     padding-bottom: 20px;
 }
 .journeyText{
-    border-radius: 10%;
-    width:1100px;
-    height:800px;
+    border-radius: 8%;
     opacity: 0.9;
-    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 20px;
 }
 .journeyText>h1{
     padding: 25px;
@@ -95,7 +97,11 @@ h3{
 
 #logoCard{
     width: 800px;
-    height: 250px;
+}
+@media screen and (max-width:760px){
+    #logoCard{
+        width: auto;
+    }
 }
 #openingCard>img{
     height:200px
